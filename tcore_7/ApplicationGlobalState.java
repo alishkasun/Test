@@ -9,7 +9,6 @@ public class ApplicationGlobalState {
     private ApplicationGlobalState() {
     }
 
-    // Непотокобезопасный код для упрощения
     public static ApplicationGlobalState getInstance() {
         if(INSTANCE == null) {
             INSTANCE = new ApplicationGlobalState();
@@ -18,19 +17,11 @@ public class ApplicationGlobalState {
         return INSTANCE;
     }
 
-//    public String getDbFileName() {
-//        return DB_FILENAME;
-//    }
 
     public String getSelectedCity(String city) {
 
         return selectedCity;
     }
-//
-//    public void setSelectedCity(String selectedCity) {
-//
-//        this.selectedCity = selectedCity;
-//    }
 
     public String getApiKey() {
 
