@@ -1,0 +1,176 @@
+{
+  "Headline": {
+    "EffectiveDate": "2021-02-17T13:00:00+01:00",
+    "EffectiveEpochDate": 1613563200,
+    "Severity": 3,
+    "Text": "Среда, день - Среда, вечер: ожидается ливень",
+    "Category": "rain",
+    "EndDate": "2021-02-18T01:00:00+01:00",
+    "EndEpochDate": 1613606400,
+    "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/extended-weather-forecast/295212_pc?unit=c",
+    "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-02-17T07:00:00+01:00",
+      "EpochDate": 1613541600,
+      "Temperature": {
+        "Minimum": {
+          "Value": -0.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 10.0,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Ливни",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 39,
+        "IconPhrase": "Переменная облачность с дождем",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=1&unit=c",
+      "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=1&unit=c"
+    },
+    {
+      "Date": "2021-02-18T07:00:00+01:00",
+      "EpochDate": 1613628000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 0.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 9.5,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Переменная облачность",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Преимущественно облачно",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=2&unit=c",
+      "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=2&unit=c"
+    },
+    {
+      "Date": "2021-02-19T07:00:00+01:00",
+      "EpochDate": 1613714400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 0.9,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 10.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 14,
+        "IconPhrase": "Небольшая облачность с дождями",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Облачно с прояснениями",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=3&unit=c",
+      "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=3&unit=c"
+    },
+    {
+      "Date": "2021-02-20T07:00:00+01:00",
+      "EpochDate": 1613800800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 1.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 9.5,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Преимущественно ясно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Облачно с прояснениями",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=4&unit=c",
+      "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=4&unit=c"
+    },
+    {
+      "Date": "2021-02-21T07:00:00+01:00",
+      "EpochDate": 1613887200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 1.7,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 10.1,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 7,
+        "IconPhrase": "Облачно",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Облачно с прояснениями",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=5&unit=c",
+      "Link": "http://www.accuweather.com/ru/at/wetzmannsthal/3130/daily-weather-forecast/295212_pc?day=5&unit=c"
+    }
+  ]
+}
