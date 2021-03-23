@@ -1,0 +1,451 @@
+{
+  "id": "08533c50-818a-4d7c-8389-28817f281c39",
+  "version": "2.0",
+  "name": "Lesson1_2",
+  "url": "https://evernote.com/intl/ru/",
+  "tests": [{
+    "id": "b3be9d06-4e04-43b8-8205-a9bfc6769f7a",
+    "name": "test1",
+    "commands": [{
+      "id": "bcefe68f-41e6-4f2e-8992-0ea1a11d8ef7",
+      "comment": "",
+      "command": "open",
+      "target": "https://evernote.com/intl/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4867ee1f-d27b-4e71-a914-f4b5265127a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13987fb7-1fcd-4ed6-857b-07bbdf07a1a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=.utility-nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.evernote.com/Login.action')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0aa52c-2ba9-4bf7-a8e1-d785092bd673",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='email-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b53be0f-64a7-4075-a374-f76924d7c573",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='email-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alishkasun@mail.ru"
+    }, {
+      "id": "14e5bbc6-665a-4e10-abc6-605365388b93",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//li[@id='submitRow']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70882683-ec1a-4e6b-9714-b346272f13aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "410b05db-d8c4-463f-aa8e-683c15b68a00",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": "galileo"
+    }, {
+      "id": "71e59977-0f48-4f29-a492-28995c94adf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//li[@id='submitRow']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83688f2a-5596-4abf-8662-1321c816e2fe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf53095f-c6c0-47f2-ad41-18bcdb5ad6fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1yX_AgzXv-DFC4ljGOVNNq",
+      "targets": [
+        ["css=.\\_1yX_AgzXv-DFC4ljGOVNNq", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "46a79800-cf7d-4f8d-b671-5b8f2a7716af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3O6nkSGkQjAv0u8z_dTeTp > .\\_2AlnYOJxMYsUbT9btUT98m",
+      "targets": [
+        ["css=.\\_3O6nkSGkQjAv0u8z_dTeTp > .\\_2AlnYOJxMYsUbT9btUT98m", "css:finder"],
+        ["xpath=//a[@id='qa-ACCOUNT_DROPDOWN_LOGOUT']/div/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf92805d-4265-4c3e-9935-5b7362df9482",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=qa-HOME_TITLE",
+      "targets": [
+        ["id=qa-HOME_TITLE", "id"],
+        ["css=#qa-HOME_TITLE", "css:finder"],
+        ["xpath=//div[@id='qa-HOME_TITLE']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-HOME-CONTAINER']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Добрый день!"
+    }]
+  }, {
+    "id": "f6272bf4-0dd6-44cd-a627-4a995f5c4f7c",
+    "name": "test2",
+    "commands": [{
+      "id": "cb66fd3a-2c8c-4192-a906-9f1a3b69789f",
+      "comment": "",
+      "command": "open",
+      "target": "https://evernote.com/intl/ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90a042c8-d490-430e-9be8-04dd770abdee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a1250bb-cbc1-4cb0-9b04-51797ec34fea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Войти",
+      "targets": [
+        ["linkText=Войти", "linkText"],
+        ["css=.utility-nav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.evernote.com/Login.action')]", "xpath:href"],
+        ["xpath=//nav[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7ea7349-7167-4d1d-b7b8-e0eb881e3df5",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='email-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c9dfc27-b00c-4103-8400-44854eb1704e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='email-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alishkasun@mail.ru"
+    }, {
+      "id": "3b852f2f-8419-44f9-94d1-46dfc2ecbe11",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//li[@id='submitRow']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2634dd9-33a2-4483-a7ff-f8978acc0c62",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "445c9a24-83e4-45b3-919a-4095e462105a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/input", "xpath:idRelative"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": "galileo"
+    }, {
+      "id": "f72c2aaa-33fe-42ee-b1e3-9a5535745780",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//input[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//li[@id='submitRow']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "945bd4de-c505-4c0d-9b4a-6e1de595eb75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33e1422b-6825-4d89-829f-d5e56c7d3232",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=qa-HOME_TITLE",
+      "targets": [
+        ["id=qa-HOME_TITLE", "id"],
+        ["css=#qa-HOME_TITLE", "css:finder"],
+        ["xpath=//div[@id='qa-HOME_TITLE']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-HOME-CONTAINER']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Добрый день!"
+    }, {
+      "id": "a4561968-464e-45f0-a82a-1b135bc797de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wUBGPuRifGLfhCnZb8HqO > g > path:nth-child(1)",
+      "targets": [
+        ["css=.wUBGPuRifGLfhCnZb8HqO > g > path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6239184f-e1d0-4660-940c-81ce29597fc2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f255ec3-e654-4df4-a3cc-f296e0c7ad30",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f0bcfd-3974-4151-bbc4-fd5749df704b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3wdDa",
+      "targets": [
+        ["css=.\\_3wdDa", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "193125a2-9314-49fb-a791-821d1771268f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_3wdDa",
+      "targets": [
+        ["css=.\\_3wdDa", "css:finder"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Lesson1"
+    }, {
+      "id": "1c3e3169-0774-42da-a9e6-8b0b0db964e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.para",
+      "targets": [
+        ["css=.para", "css:finder"],
+        ["xpath=//en-note[@id='en-note']/div", "xpath:idRelative"],
+        ["xpath=//en-note/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c955733e-9b06-4e21-af2b-7f0bee006943",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=en-note",
+      "targets": [
+        ["id=en-note", "id"],
+        ["css=#en-note", "css:finder"],
+        ["xpath=//en-note[@id='en-note']", "xpath:attributes"],
+        ["xpath=//en-note", "xpath:position"],
+        ["xpath=//en-note[contains(.,'Я учусь в ')]", "xpath:innerText"]
+      ],
+      "value": "<div class=\"para\">Я учусь в </div>"
+    }, {
+      "id": "2d4d7386-ea13-48fd-aeee-4a1c508df586",
+      "comment": "",
+      "command": "click",
+      "target": "css=.para",
+      "targets": [
+        ["css=.para", "css:finder"],
+        ["xpath=//en-note[@id='en-note']/div", "xpath:idRelative"],
+        ["xpath=//en-note/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Я учусь в ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d90646d-6381-4aab-bf5c-8c6c1d39808f",
+      "comment": "",
+      "command": "click",
+      "target": "id=en-note",
+      "targets": [
+        ["id=en-note", "id"],
+        ["css=#en-note", "css:finder"],
+        ["xpath=//en-note[@id='en-note']", "xpath:attributes"],
+        ["xpath=//en-note", "xpath:position"],
+        ["xpath=//en-note[contains(.,'Я учусь в GEEKBRAINS ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "214f4766-488b-480e-abd7-f7ad1bb25b7c",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=en-note",
+      "targets": [
+        ["id=en-note", "id"],
+        ["css=#en-note", "css:finder"],
+        ["xpath=//en-note[@id='en-note']", "xpath:attributes"],
+        ["xpath=//en-note", "xpath:position"],
+        ["xpath=//en-note[contains(.,'Я учусь в GEEKBRAINS ')]", "xpath:innerText"]
+      ],
+      "value": "<div class=\"para\">Я учусь в GEEKBRAINS </div>"
+    }, {
+      "id": "b855296e-1bde-4302-ac2c-618d710604f9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "e714cb31-7245-460d-acef-ef6ee2380c38",
+      "comment": "",
+      "command": "click",
+      "target": "css=#qa-NAV_HOME > .CWUfwyPerYximB8JPVb69",
+      "targets": [
+        ["css=#qa-NAV_HOME > .CWUfwyPerYximB8JPVb69", "css:finder"],
+        ["xpath=//button[@id='qa-NAV_HOME']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Главная')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcaa00ad-ad08-4b6a-96e5-a46c32af9f26",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e01b269a-bc16-4cb9-b456-f82c84546dcf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#qa-HOME_WIDGET_HEADER_Notes_2\\|0_0\\|0_FYI0Q3\\|13 > .\\_1sMVY7NoGU5Etr5tTA-_rb",
+      "targets": [
+        ["css=#qa-HOME_WIDGET_HEADER_Notes_2\\|0_0\\|0_FYI0Q3\\|13 > .\\_1sMVY7NoGU5Etr5tTA-_rb", "css:finder"],
+        ["xpath=//button[@id='qa-HOME_WIDGET_HEADER_Notes_2|0_0|0_FYI0Q3|13']/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": "ЗАМЕТКИ"
+    }]
+  }],
+  "suites": [{
+    "id": "368fda80-7a61-4518-8281-cba1da056308",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.notesbook.org/", "https://evernote.com/intl/ru/"],
+  "plugins": []
+}
